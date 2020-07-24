@@ -1,0 +1,16 @@
+body {
+    font-family: monospace; 
+    font-size:30px; 
+    margin: 12px 45px; 
+    letter-spacing: 6px; 
+    font-weight: bold;
+    background: grey;
+    padding-top: 5em;
+    justify-content: center;
+  
+    white-space: pre-line;
+}
+  .btn{
+    color: black;
+
+  }

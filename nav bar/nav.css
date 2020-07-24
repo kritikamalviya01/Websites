@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 14px 28px;
+
+    
+}
+.navbar a:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn {
+    background-color: black;
+    
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .btn{
+        background-color: black; 
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+    }
+   
+    label.logo{
+        color: #f2f2f2;
+        font-size: 25px;
+        line-height: 60px;
+        padding: 0 175px;
+        font-weight: 600;
+        font-family: monospace;
+        display: inline-block
+        j
+        text-align: left;
+      }
+  
+   #res {
+       display: none;
+   }
+   .respon{
+       background-color: blueviolet ;
+       border-bottom: 3px solid white;
+       color: white;
+       padding: 8px;
+       display: flex;
+       justify-content: flex-end;
+   }
+   .respon{
+       display: none;
+   }
+   .respon label{
+       background-color: black;
+       height: 45px;
+       width: 50px;
+       color: black;
+       border-radius: 6px;
+       display: flex;
+       justify-content:center;
+       cursor: pointer;
+       align-items: center;
+       flex-direction: column;
+   }
+   .respon label span{
+      background-color: blueviolet;
+      height: 3px;
+      width: 80%;
+      margin: 3px 0px;
+
+   }
+
+
+@media screen and (max-width: 700px)
+{
+   .navbar{
+       flex-direction: column;
+         display: none;
+   }
+    #res:checked + .navbar {
+        display: flex;
+   }
+   .respon{
+       display: flex;
+   }
+   .btn{
+       display: none;
+   }
+}
